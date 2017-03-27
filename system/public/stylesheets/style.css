@@ -1,0 +1,124 @@
+ul.sucess li{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+ul.error li{
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+
+.container video{
+	width:50%;
+	padding: 0.5em;
+}
+
+.container .interface{
+	padding:0.5em;
+}
+
+label[for="record"]{
+	margin-left: 2rem;
+}
+
+.record-download{
+
+}
+
+/*style dla kontenera*/
+
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back{
+  
+  width:100%;
+  height:18rem;
+}
+
+/*predkosc obrotu*/
+
+.flipper {
+  transition: 0.9s;
+  transform-style: preserve-3d;
+  
+  position:relative;
+}
+
+.front, .back {
+  backface-visibility:hidden;
+  
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/*front*/
+
+.front{
+  z-index: 2;
+  background:black;
+  transform: rotateY;
+  position: relative;
+  
+}
+
+.front img{
+	width: 100%;
+	height: 100%;
+}
+
+.date-thumbnail{
+	width:100%;
+	height:5rem;
+	background-color: rgba(255,255,255, 0.75);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.date-thumbnail p{
+	text-align:center;
+	padding-top: 1rem;
+
+}
+
+.back{
+  transform: rotateY(180deg);
+  background: transparent;
+  display: table;
+}
+
+.link-wrapper{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    width: 50%;
+    margin:0 auto;
+	height: 3rem;
+}
+
+.link-wrapper a{
+    font-size:5rem;
+    color: rgba(0,0,0, 0.75);    
+}
+
+.link-wrapper a:hover{
+    text-decoration: none;
+}
+
+
+

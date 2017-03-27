@@ -1,0 +1,91 @@
+extends layout
+
+block content
+  h1 Galeria
+  p Obejrzyj lub pobierz nagranie
+  .container-fluid
+  #myModal.modal.fade(role='dialog')
+    .modal-dialog
+      // Modal content
+      .modal-content
+        .modal-header
+          a.close(type='button', data-dismiss='modal') ×
+          h4.modal-title Nagranie: 1
+        .modal-body
+          p 24-03-17 15:15
+  .row
+    .col-xs-6.col-md-2
+      .flip-container
+        .flipper
+          .front
+            img.video-thumbnail(src='/images/thumb.png')
+            .date-thumbnail
+              p 24-03-17 15:15
+          .back
+            .link-wrapper 
+              a(type='button', data-toggle='modal', data-target='#myModal') &#9658
+              a(href='#') &#10515
+
+    .col-xs-6.col-md-2
+      .flip-container
+        .flipper
+          .front
+            img.video-thumbnail(src='/images/thumb.png')
+            .date-thumbnail
+              p 24-03-17 15:15
+          .back
+            .link-wrapper
+              a(href='#') &#9658
+              a(href='#') &#10515
+
+    .clearfix.visible-xs-block
+
+    .col-xs-6.col-md-2
+      .flip-container
+        .flipper
+          .front
+            img.video-thumbnail(src='/images/thumb.png')
+            .date-thumbnail
+              p 24-03-17 15:15
+          .back
+            .link-wrapper
+              a(href='#') &#9658
+              a(href='#') &#10515
+
+    .col-xs-6.col-md-2
+      .flip-container
+        .flipper
+          .front
+            img.video-thumbnail(src='/images/thumb.png')
+            .date-thumbnail
+              p 24-03-17 15:15
+          .back
+            .link-wrapper
+              a(href='#') &#9658
+              a(href='#') &#10515
+
+    .col-xs-6.col-md-2
+      .flip-container
+        .flipper
+          .front
+            img.video-thumbnail(src='/images/thumb.png')
+            .date-thumbnail
+              p 24-03-17 15:15
+          .back
+            .link-wrapper
+              a(href='#') &#9658
+              a(href='#') &#10515
+
+    .col-xs-6.col-md-2
+      .flip-container
+        .flipper
+          .front
+            img.video-thumbnail(src='/images/thumb.png')
+            .date-thumbnail
+              p 24-03-17 15:15
+          .back
+            .link-wrapper
+              a(href='#') &#9658
+              a(href='#') &#10515
+
+
